@@ -1,6 +1,5 @@
 package org.example;
 
-import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;
 import org.apache.lucene.util.RamUsageEstimator;
@@ -16,6 +15,9 @@ import java.util.regex.Pattern;
 
 import static java.time.temporal.ChronoField.*;
 
+/**
+ * Usage: java -jar xxx.jar 1m 100k 3s 2
+ */
 public class G1Demo
 {
     public static void main( String[] args ) throws Exception
